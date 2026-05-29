@@ -20,13 +20,13 @@ list, sepby(State)
 restore
 
 *************************************************************
-* Main Difference-in-Differences
+* Main DiD
 *************************************************************
 
 reghdfe Enrollment i.Reconnect##i.post, absorb(ID Year) vce(robust)
 
 *************************************************************
-* Anticipation Effects
+* Anticipation DiD
 *************************************************************
 
 gen postant = (Year >= 2020)
@@ -69,7 +69,7 @@ newey diff post tsince t, lag(`=L')
 restore
 
 *************************************************************
-* Parallel Trends / Event Study
+* Parallel Trends
 *************************************************************
 
 gen rel_year = Year - 2021
