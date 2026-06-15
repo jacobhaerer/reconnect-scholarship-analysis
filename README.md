@@ -4,6 +4,8 @@
 
 This repository contains the code used to evaluate adult community college enrollment trends following the implementation of Reconnect scholarship programs in Massachusetts, Michigan, and Tennessee.
 
+Link to the published paper here: https://cer.econ.columbia.edu/journal 
+
 ## Research Question
 
 Are last-dollar Reconnect scholarship programs associated with increases in adult community college enrollment, both individually within states and collectively across states?
